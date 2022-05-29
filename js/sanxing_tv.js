@@ -1,6 +1,6 @@
 // 图片切换效果
-var img = document.querySelector('.goods_img>img');
-var lis_img = document.querySelectorAll('.goods_img>ul>li>img');
+var img = document.querySelector('.goods_img_sx>img');
+var lis_img = document.querySelectorAll('.goods_img_sx>ul>li>img');
 console.log(img);
 console.log(lis_img);
 lis_img[0].onclick = function () {
